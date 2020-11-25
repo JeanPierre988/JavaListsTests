@@ -26,6 +26,7 @@ public class principalTeste {
         System.out.println("1) Por Título. 2) Por nome. 3) Por Cidade. 4) Por Ponto de Venda.");
         switch (scanner.nextInt()) {
             case 1:
+                System.out.println("<Organizando lista por Título>");
                 ordenaLista(ganhadorList, Comparator.comparing(Ganhador::getTitulo));
                 break;
             case 2:
